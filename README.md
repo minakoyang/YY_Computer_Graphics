@@ -1,13 +1,15 @@
 # YY_Computer_Graphics
-Programming Assignment: Model Viewer.
+Programming Assignment: Phong Shading.
 
 ## Getting Started
 Open a terminal in the folder contains the cpp, make, and model object files.
 Type "make" to make the executive file.
-Then type "./assn2 filename" to start the program. By default, filename is "model1.obj".
+Then type "./assn3 filename" to start the program. By default, filename is "model1.obj".
 The user can load either model1 or model2 for the Model Viewer program.
 
 The default view is the orthogonal projection with Z-buffer of the model object.
+Tap 'X' to toggle between Phong Smoothing Render and Flat Shaded Render
+Tap 'B' to toggle between Bump Mapping with a Dimple in the center of each triangle and Normal Mapping
 Tap 'Z' to toggle between Z-buffer (colored) and wireframe view anytime.
 Tap 'V' to toggle between Orthogonal mode and Perspective mode anytime.
 Tap 'T' to start Translation mode:
