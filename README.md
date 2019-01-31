@@ -1,6 +1,5 @@
-# Project Title
-
-Programming Assignment 2: Model Viewer.
+# YY_Computer_Graphics
+Programming Assignment: Model Viewer.
 
 ## Getting Started
 Open a terminal in the folder contains the cpp, make, and model object files.
@@ -8,10 +7,10 @@ Type "make" to make the executive file.
 Then type "./assn2 filename" to start the program. By default, filename is "model1.obj".
 The user can load either model1 or model2 for the Model Viewer program.
 
-The default view is the orthogonal projection with Z-buffer of the model object. 
+The default view is the orthogonal projection with Z-buffer of the model object.
 Tap 'Z' to toggle between Z-buffer (colored) and wireframe view anytime.
 Tap 'V' to toggle between Orthogonal mode and Perspective mode anytime.
-Tap 'T' to start Translation mode: 
+Tap 'T' to start Translation mode:
     Tap 'A': move left;
     Tap 'D': move right;
     Tap 'W': move up;
@@ -30,8 +29,3 @@ Tap 1 to reload and escape from the 'T', 'E' or 'R' mode. Z-buffer colors are ra
 Tap esc to exit the program.
 
 Mode information, operations, and overflow messages will show in the terminal.
-
-
-###Note
-I cannot compile the originial code on neither my own MacPro nor CS department computers (i.e., Koala, Ada). I used  CECAS Apollo to program and test my code and it worked very well. 
-
